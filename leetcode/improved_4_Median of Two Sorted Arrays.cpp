@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <functional>
 using namespace std;
 
 double recursive(vector<int>& nums1, int s1, vector<int>& nums2, int s2, int k)
@@ -42,17 +43,25 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 			) / 2.0;
 }
 
+int (*add)(int a, int b);
+
+int func(int a, int b, int(*add)(int a, int b))
+{
+	return add(a, b);
+}
+
 int main()
 {
-	vector<int> v1, v2;
-	v1.push_back(1);
-	v1.push_back(4);
-	v1.push_back(9);
-	v2.push_back(2);
-	v2.push_back(3);
-	v2.push_back(11);
+	int a = 3, b = 8;
+	std::function<int(int, int)> f;
+	f = [](int a, int b) 
+	{
+		a++;
+		b++;
+		return a + b; 
+	};
 
-	printf("%.1lf", findMedianSortedArrays(v1, v2));
+	printf("%d", f(2,5));
 
 	return 0;
 }
