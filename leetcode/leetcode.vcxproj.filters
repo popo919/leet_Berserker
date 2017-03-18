@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="532_kdiff pair in an array.cpp">
+    <ClCompile Include="20_valid_parenthesis.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="532_kdiff pair in an array.cpp" />
+    <ClCompile Include="20_valid_parenthesis.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{88735C97-AB79-450E-BF21-00AF87B6B56C}</ProjectGuid>

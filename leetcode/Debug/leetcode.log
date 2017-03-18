@@ -1,3 +1,4 @@
-﻿  532_kdiff pair in an array.cpp
+﻿  20_valid_parenthesis.cpp
+d:\projects\leet_berserker\leetcode\20_valid_parenthesis.cpp(7): warning C4018: “<”: 有符号/无符号不匹配
   leetcode.vcxproj -> D:\projects\leet_Berserker\leetcode\Debug\leetcode.exe
   leetcode.vcxproj -> D:\projects\leet_Berserker\leetcode\Debug\leetcode.pdb (Full PDB)
